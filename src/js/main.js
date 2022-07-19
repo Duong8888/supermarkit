@@ -151,7 +151,7 @@ var categoriesList = [
 var container = document.querySelector('.container');
 var responsive = container.getClientRects()[0];
 var loading = document.querySelector('.loading');
-if (loading && responsive.width >1024) {
+if (loading) {
     setTimeout(function () {
         loading.style.opacity = '0';
         loading.style.zIndex = '-100';
