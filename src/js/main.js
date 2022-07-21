@@ -7,7 +7,7 @@ var productList = [
         'avatar': 'https://static.wixstatic.com/media/c837a6_b8785d0e4dbe4a1f8fe00c6c36e25422~mv2.jpg/v1/fill/w_252,h_252,al_c,q_80,usm_0.66_1.00_0.01/c837a6_b8785d0e4dbe4a1f8fe00c6c36e25422~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
         'price': 2,
-        'categoriesId': 1
+        'categoriesId': 4
     },
 
     {
@@ -16,7 +16,7 @@ var productList = [
         'avatar': 'https://static.wixstatic.com/media/c837a6_260c0b2e4a224901b112978a8a2c1c6e~mv2.jpg/v1/fill/w_252,h_252,al_c,q_80,usm_0.66_1.00_0.01/c837a6_260c0b2e4a224901b112978a8a2c1c6e~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
         'price': 5,
-        'categoriesId': 1
+        'categoriesId': 2
     },
 
     {
@@ -34,7 +34,7 @@ var productList = [
         'avatar': 'https://static.wixstatic.com/media/c837a6_b5b9284a44384c8dbce0bc27bad2dda4~mv2.jpg/v1/fill/w_252,h_252,al_c,q_80,usm_0.66_1.00_0.01/c837a6_b5b9284a44384c8dbce0bc27bad2dda4~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
         'price': 9,
-        'categoriesId': 1
+        'categoriesId': 4
     },
 
     {
@@ -43,7 +43,7 @@ var productList = [
         'avatar': 'https://static.wixstatic.com/media/c837a6_58835d9ae93f4c43af863ba0e76ae2a0~mv2.jpg/v1/fill/w_207,h_207,al_c,q_80,usm_0.66_1.00_0.01/c837a6_58835d9ae93f4c43af863ba0e76ae2a0~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
         'price': 1,
-        'categoriesId': 1
+        'categoriesId': 4
     },
 
     {
@@ -52,7 +52,7 @@ var productList = [
         'avatar': 'https://static.wixstatic.com/media/c837a6_cc314d70076e442fadd82ce2e39758a1~mv2.jpg/v1/fill/w_207,h_207,al_c,q_80,usm_0.66_1.00_0.01/c837a6_cc314d70076e442fadd82ce2e39758a1~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
         'price': 2.99,
-        'categoriesId': 1
+        'categoriesId': 5
     },
 
     {
@@ -61,7 +61,7 @@ var productList = [
         'avatar': 'https://static.wixstatic.com/media/c837a6_568af83ef77c4945aa44dd71cafbeb22~mv2.jpg/v1/fill/w_207,h_207,al_c,q_80,usm_0.66_1.00_0.01/c837a6_568af83ef77c4945aa44dd71cafbeb22~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
         'price': 4.5,
-        'categoriesId': 1
+        'categoriesId': 6
     },
 
     {
@@ -70,7 +70,7 @@ var productList = [
         'avatar': 'https://static.wixstatic.com/media/c837a6_2dde4d0405d34e2497319ee16a9a096d~mv2.jpg/v1/fill/w_207,h_207,al_c,q_80,usm_0.66_1.00_0.01/c837a6_2dde4d0405d34e2497319ee16a9a096d~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
         'price': 8,
-        'categoriesId': 1
+        'categoriesId': 2
     },
 
     {
@@ -79,7 +79,7 @@ var productList = [
         'avatar': 'https://static.wixstatic.com/media/c837a6_a3f22d6f9d5740d4ba7e81fdcb2dad1c~mv2.jpg/v1/fill/w_207,h_207,al_c,q_80,usm_0.66_1.00_0.01/c837a6_a3f22d6f9d5740d4ba7e81fdcb2dad1c~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
         'price': 8,
-        'categoriesId': 1
+        'categoriesId': 2
     },
     {
         'id': 10,
@@ -87,7 +87,7 @@ var productList = [
         'avatar': 'https://static.wixstatic.com/media/c837a6_2bd65ba805394358838d82695f3b92e1~mv2.jpg/v1/fill/w_207,h_207,al_c,q_80,usm_0.66_1.00_0.01/c837a6_2bd65ba805394358838d82695f3b92e1~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
         'price': 8,
-        'categoriesId': 1
+        'categoriesId': 3
     },
 
     {
@@ -96,10 +96,10 @@ var productList = [
         'avatar': 'https://static.wixstatic.com/media/c837a6_2bd65ba805394358838d82695f3b92e1~mv2.jpg/v1/fill/w_207,h_207,al_c,q_80,usm_0.66_1.00_0.01/c837a6_2bd65ba805394358838d82695f3b92e1~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
         'price': 8,
-        'categoriesId': 1
+        'categoriesId': 3
     },
 
-    
+
 ];
 var categoriesList = [
     {
@@ -149,27 +149,25 @@ var categoriesList = [
 
 // kết thúc animation loading
 var container = document.querySelector('.container');
-var responsive = container.getClientRects()[0];
 var loading = document.querySelector('.loading');
 if (loading) {
     setTimeout(function () {
         loading.style.opacity = '0';
         loading.style.zIndex = '-100';
     }, 2000);
-}else {
-    loading.style.display = "none";
 }
 
 
 // duyệt mảng rproduct hiển thị sản phẩm
 
-var boxProduct = document.querySelector('.main-slider-best');
-if(boxProduct){
-    function displayProduct(){
-        for(let item of productList){
-            boxProduct.innerHTML +=`
+var boxProduct = document.querySelectorAll('.main-slider-best');
+if (boxProduct) {
+    function displayProduct() {
+        for (let item of productList) {
+            for (let i in boxProduct) {
+                boxProduct[i].innerHTML += `
                     <div class="product">
-                    <a href="" class="avatar-product">
+                    <a href="detail.html?id=${item.id}" class="avatar-product">
                         <img src="${item.avatar}" alt="">
                     </a>
                     <a href="" class="name-price">
@@ -186,37 +184,39 @@ if(boxProduct){
                     </div>
                     </div>
             `;
+            }
+
         }
     }
     displayProduct();
 }
 
 // slider sản phẩm
-var next = document.querySelector('.bx-chevron-right');
-var back = document.querySelector('.bx-chevron-left');
+var next = document.querySelectorAll('.bx-chevron-right');
+var back = document.querySelectorAll('.bx-chevron-left');
 var productSlider = document.querySelectorAll('.product');
 var widthSlide = document.querySelector('.main-slider-best');
-
-if (next) {
+if (widthSlide) {
+    var responsive = container.getClientRects()[0];
     var widthMain = widthSlide.getClientRects()[0];
-    if(responsive.width > 1024){
+    if (responsive.width > 1024) {
         var px = ((widthMain.width) / 100) * 20;
-    }else if(responsive.width > 740){
+    } else if (responsive.width > 740) {
         var px = ((widthMain.width) / 100) * 25;
-    }else{
+    } else {
         var px = ((widthMain.width) / 100) * 100;
     }
-    
+
     var count = 0;
     var countRun = 0;
     function sliderNext() {
-        
+
         console.log(countRun);
-        if (countRun == productList.length-5 && responsive.width > 1024) {
+        if (countRun == productList.length - 5 && responsive.width > 1024) {
             return;
-        } else if (countRun == productList.length-4 && responsive.width > 740) {
+        } else if (countRun == productList.length - 4 && responsive.width > 740) {
             return;
-        } else if (countRun == productList.length-1) {
+        } else if (countRun == productList.length - 1) {
             return;
         }
         count += px;
@@ -240,36 +240,17 @@ if (next) {
         }
         countRun--;
     }
-    next.addEventListener('click', sliderNext);
-    back.addEventListener('click', sliderBack);
+
+
+    for (let index = 0; index < next.length; index++) {
+        next[index].addEventListener('click', sliderNext);
+        back[index].addEventListener('click', sliderBack);
+    };   
+    
+        // next.addEventListener('click', sliderNext);
+        // back.addEventListener('click', sliderBack);
 }
 
-// thêm số lượng sản phẩm + tiền khi thêm sản phẩm
-
-var add = document.querySelectorAll('.add');
-var minus = document.querySelectorAll('.minus');
-var numberProduct = document.querySelectorAll('.numberProduct');
-var priceProduct = document.querySelectorAll('.price-product');
-if (add) {
-    var arrPrice = [];
-    for (var i = 0; i < add.length; i++) {
-        var gia = priceProduct[i].innerText.slice(1);
-        arrPrice.push(gia);
-    }
-    for (let i in add) {
-        add[i].onclick = function () {
-            numberProduct[i].value++;
-            priceProduct[i].innerText = "$" + Math.round((numberProduct[i].value) * arrPrice[i]);
-        };
-        minus[i].onclick = function () {
-            if (numberProduct[i].value < 1) {
-                numberProduct[i].value = 1;
-            }
-            numberProduct[i].value--;
-            priceProduct[i].innerText = "$" + Math.round((numberProduct[i].value) * arrPrice[i]);
-        };
-    }
-}
 
 // sử lý onscroll bg sub footer
 /* transform: translateX(-10%); */
@@ -315,6 +296,289 @@ if (mainCategories) {
     }
     displayCategories();
 }
+
+
+// validate form
+var signUp = document.querySelector('#submit-signUp');
+var signIn = document.querySelector('#submit-signIn');
+function checkFrom() {
+    var countErro = 0;
+    let name = document.querySelector('#name');
+    let email = document.querySelector('#email');
+    let pass = document.querySelector('#password');
+    let rePass = document.querySelector('#re-password');
+    let span = document.querySelectorAll('span');
+    if (signUp) {
+        if (name.value.length == 0) {
+            span[2].innerText = "Vui lòng nhập tên.";
+            countErro++;
+        } else {
+            span[2].innerText = "";
+        }
+        if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value))) {
+            span[1].innerText = "Email không hợp lệ.";
+            countErro++;
+        } else {
+            span[1].innerText = "";
+        }
+        if (pass.value.length == 0) {
+            span[3].innerText = "Vui lòng nhập password.";
+            countErro++;
+        } else {
+            span[3].innerText = "";
+        }
+        if (rePass.value != pass.value) {
+            span[4].innerText = "Mật Khẩu không Khớp.";
+            countErro++;
+        } else {
+            span[4].innerText = "";
+        }
+        if (countErro == 0) {
+            swal("Sent", "Sign Up Success.", "success");
+        }
+    } else if (signIn) {
+        if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value))) {
+            span[1].innerText = "Email không hợp lệ.";
+            countErro++;
+        } else {
+            span[1].innerText = "";
+        }
+        if (pass.value.length == 0) {
+            span[2].innerText = "Vui lòng nhập password.";
+            countErro++;
+        } else {
+            span[2].innerText = "";
+        }
+        if (countErro == 0) {
+            swal("Sent", "Logged in successfully.", "success");
+        }
+    }
+}
+if (signUp) {
+    signUp.addEventListener('click', checkFrom);
+}
+
+if (signIn) {
+    signIn.addEventListener('click', checkFrom);
+}
+
+
+// detail product 
+var mainDetail = document.querySelector('.detail-product');
+if (mainDetail) {
+    var idProduct = new URLSearchParams(window.location.search).get('id');
+    function detailDisplay() {
+        for (let i of productList) {
+            if (i.id == idProduct) {
+                var idDetail = i;
+            }
+        }
+        mainDetail.innerHTML = `
+        <article class="detail-product">
+        <div class="detail-left">
+            <img src="${idDetail.avatar}" alt="">
+        </div>
+        <div class="detail-right">
+            <form action="">
+                <p class="detail-name">${idDetail.name}</p>
+                <span class="detail-price">$${idDetail.price}</span>
+                <label for="quantity">Quantity</label>
+                <input type="number" value="1" min="0" id="quantity">
+                <button>Add Cart</button>
+            </form>
+            <div class="detail-info">
+                <p class="desc-content">${idDetail.desc}</p>
+                </div>
+            </div>
+        </article>
+        `;
+    }
+    detailDisplay();
+}
+// hiển thị giá khi kéo thanh price
+var sliderPrice = document.querySelector('.select-price>input');
+var spanPricespanPrice = document.querySelector('.select-price>span');
+var titleCategories = document.querySelector('.title-display-categories');
+if (sliderPrice) {
+    sliderPrice.onmousemove = function () {
+        spanPricespanPrice.innerText = "$" + sliderPrice.value;
+        productList.forEach(element => {
+            mainProductList.innerHTML = ``;
+        });
+        for (let item in productList) {
+            if (productList[item].price <= sliderPrice.value) {
+
+                mainProductList.innerHTML += `
+                    <div class="product">
+                        <a href="detail.html?id=${productList[item].id}" class="avatar-product">
+                            <img src="${productList[item].avatar}" alt="">
+                        </a>
+                        <a href="" class="name-price">
+                            <span class="name-product">${productList[item].name}</span>
+                            <span class="price-product">$${productList[item].price}</span>
+                        </a>
+                        <div class="add-cart">
+                            <form action="">
+                                <div class="minus">-</div>
+                                <input type="text" value="1" class="numberProduct">
+                                <div class="add">+</div>
+                            </form>
+                            <div class="btn-add-cart">Add to Cart</div>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+    }
+}
+
+
+var sidebar = document.querySelector('.categories-menu');
+//  hiển thị sidebar categories
+if (sliderPrice) {
+    function displaySidebar() {
+        categoriesList.forEach(element => {
+            sidebar.innerHTML += `
+                <li class="categories-items" onclick="animationClick(this)">${element.categoriesName}</li>
+            `;
+        });
+    }
+    displaySidebar();
+}
+
+// hiển thị product bên trang product
+var mainProductList = document.querySelector('.list-items');
+if (mainProductList) {
+    function displayProduct2() {
+        for (let item of productList) {
+            mainProductList.innerHTML += `
+            <div class="product">
+                <a href="detail.html?id=${item.id}" class="avatar-product">
+                    <img src="${item.avatar}" alt="">
+                </a>
+                <a href="" class="name-price">
+                    <span class="name-product">${item.name}</span>
+                    <span class="price-product">$${item.price}</span>
+                </a>
+                <div class="add-cart">
+                    <form action="">
+                        <div class="minus">-</div>
+                        <input type="text" value="1" class="numberProduct">
+                        <div class="add">+</div>
+                    </form>
+                    <div class="btn-add-cart">Add to Cart</div>
+                </div>
+            </div>
+        `;
+        }
+
+    }
+    displayProduct2();
+}
+
+
+// xử lí thanh price và animation click categories và hiển thị sản phẩm
+var indexList = document.querySelectorAll('.categories-items');
+var activeBg = document.querySelector('.activeBg');
+
+var first = document.querySelector('.first');
+
+
+if (sliderPrice) {
+    function overlay() {
+        mainProductList.style.animation = 'overlay 2s';
+        setTimeout(function () {
+            mainProductList.style.animation = '';
+        }, 1000);
+    }
+    function animationClick(e) {
+        // sử lý active khi phần tử dc click
+        for (let i in indexList) {
+            if (indexList[i].innerHTML == e.innerHTML) {
+                indexList.forEach(element => {
+                    element.style.color = '#000';
+                });
+                activeBg.style.transform = 'translateY(' + i + '00%)';
+                indexList[i].style.color = '#fff';
+                // thay đổi title
+                titleCategories.innerText = e.innerText;
+                overlay();
+            }
+        }
+        var newId = 0;
+        for (let key in categoriesList) {
+            if (e.innerText == categoriesList[key].categoriesName) {
+                newId = categoriesList[key].id;
+            }
+        };
+        // xóa dữ liệu cũ
+        productList.forEach(element => {
+            mainProductList.innerHTML = ``;
+        });
+        // lọc sản phẩm theo danh mục
+        for (let i of productList) {
+            if (newId == i.categoriesId) {
+                mainProductList.innerHTML += `
+                <div class="product">
+                    <a href="detail.html?id=${i.id}" class="avatar-product">
+                        <img src="${i.avatar}" alt="">
+                    </a>
+                    <a href="" class="name-price">
+                        <span class="name-product">${i.name}</span>
+                        <span class="price-product">$${i.price}</span>
+                    </a>
+                    <div class="add-cart">
+                        <form action="">
+                            <div class="minus">-</div>
+                            <input type="text" value="1" class="numberProduct">
+                            <div class="add">+</div>
+                        </form>
+                        <div class="btn-add-cart">Add to Cart</div>
+                    </div>
+                </div>
+            `;
+            }
+        }
+    }
+    // hiển thị toàn bộ sản phẩm khi bấm vào all categories
+    first.addEventListener('click', function () {
+        // xóa dữ liệu cũ click nhiều lần vẫn ok :V
+        productList.forEach(element => {
+            mainProductList.innerHTML = ``;
+        });
+        displayProduct2();
+    });
+
+
+}
+
+// thêm số lượng sản phẩm + tiền khi thêm sản phẩm
+
+var add = document.querySelectorAll('.add');
+var minus = document.querySelectorAll('.minus');
+var numberProduct = document.querySelectorAll('.numberProduct');
+var priceProduct = document.querySelectorAll('.price-product');
+if (add || minus || sliderPrice) {
+    var arrPrice = [];
+    for (var i = 0; i < add.length; i++) {
+        var gia = priceProduct[i].innerText.slice(1);
+        arrPrice.push(gia);
+    }
+    for (let i in add) {
+        add[i].onclick = function () {
+            numberProduct[i].value++;
+            priceProduct[i].innerText = "$" + Math.round((numberProduct[i].value) * arrPrice[i]);
+        };
+        minus[i].onclick = function () {
+            if (numberProduct[i].value < 1) {
+                numberProduct[i].value = 1;
+            }
+            numberProduct[i].value--;
+            priceProduct[i].innerText = "$" + Math.round((numberProduct[i].value) * arrPrice[i]);
+        };
+    }
+}
+
 
 
 
