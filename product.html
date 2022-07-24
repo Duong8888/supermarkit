@@ -12,6 +12,13 @@
     <!-- favicon  -->
     <link rel="shortcut icon" href="src/img/logo.png" type="image/x-icon">
     <title>Supermarket</title>
+    <title>Supermarket</title>
+    <!-- link thư viện animation js -->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+        // cho animaton hoạt động lặp lại mỗi khi bắt dc sự kiện scroll
+        ScrollReveal({ reset: true });
+    </script>
 </head>
 
 <body>
@@ -57,9 +64,9 @@
                     </form>
                 </div>
                 <div class="cart-location">
-                    <a href=""> <i class='bx bxs-location-plus'></i></a>
+                    <a href="contact.html"> <i class='bx bxs-location-plus'></i></a>
 
-                    <a href=""><i class='bx bxs-cart'></i></a>
+                    <a href="cart.html"><i class='bx bxs-cart'></i></a>
 
                     <label for="checkMenu" class='bx bx-menu'></label>
 
@@ -219,6 +226,26 @@
                 <p>© 2022 by Clovers. Proudly created with <a href="">Anh Duong</a></p>
             </div>
         </footer>
+        <div class="sidebar-cart">
+            <div class="header-cart">
+                <div>Cart</div>
+            </div>
+            <div class="main-sidebar">
+                <!-- <div class="box-product-sidebar">
+                    <div class="product-avatar-sidebar">
+                        <img src="src/img/product.webp" alt="">
+                    </div>
+                    <div class="cart-info">
+                        <p class="name-product-sidebar">Hand Cream</p>
+                        <p class="porduct-price-sidebar">$2</p>
+                    </div>
+                </div> -->
+            </div>
+            <div class="footer-cart">
+                <a href="cart.html" class="sidebar-view">View Cart</a>
+            </div>
+        </div>
+        <div class="main-overlay"></div>
     </div>
     <div class="back-top"><a href="#header" class='bx bx-chevrons-up'></a></div>
     <script src="src/js/main.js"></script>

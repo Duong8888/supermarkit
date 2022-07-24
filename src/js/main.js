@@ -91,12 +91,52 @@ var productList = [
     },
 
     {
-        'id': 10,
-        'name': 'Brown Ale Glass Bottle 16 oz.',
-        'avatar': 'https://static.wixstatic.com/media/c837a6_2bd65ba805394358838d82695f3b92e1~mv2.jpg/v1/fill/w_207,h_207,al_c,q_80,usm_0.66_1.00_0.01/c837a6_2bd65ba805394358838d82695f3b92e1~mv2.webp',
+        'id': 11,
+        'name': 'Banana Bunch - 1lb',
+        'avatar': 'https://static.wixstatic.com/media/c837a6_433f9eaf55034486964ef040c3b817f5~mv2.jpg/v1/fill/w_234,h_312,al_c,q_80,usm_0.66_1.00_0.01/c837a6_433f9eaf55034486964ef040c3b817f5~mv2.webp',
         'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
-        'price': 8,
-        'categoriesId': 3
+        'price': 4,
+        'categoriesId': 8
+    },
+    {
+        'id': 12,
+        'name': 'Whole Milk Gallon, 64 oz.',
+        'avatar': 'https://static.wixstatic.com/media/c837a6_12ade01a54ff4859a2f9fa4deaf534a3~mv2.jpg/v1/fill/w_234,h_312,al_c,q_80,usm_0.66_1.00_0.01/c837a6_12ade01a54ff4859a2f9fa4deaf534a3~mv2.webp',
+        'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
+        'price': 3,
+        'categoriesId': 6
+    },
+    {
+        'id': 13,
+        'name': 'Natural Large White Eggs',
+        'avatar': 'https://static.wixstatic.com/media/c837a6_6846a2d83d89405eb592b3f0dc2d683b~mv2.jpg/v1/fill/w_234,h_312,al_c,q_80,usm_0.66_1.00_0.01/c837a6_6846a2d83d89405eb592b3f0dc2d683b~mv2.webp',
+        'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
+        'price': 4.9,
+        'categoriesId': 8
+    },
+    {
+        'id': 14,
+        'name': 'Greenhouse Cucumber - 1lb',
+        'avatar': 'https://static.wixstatic.com/media/c837a6_4da77aa2a0d64d599c150d9d023a931a~mv2.jpg/v1/fill/w_234,h_312,al_c,q_80,usm_0.66_1.00_0.01/c837a6_4da77aa2a0d64d599c150d9d023a931a~mv2.webp',
+        'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
+        'price': 4,
+        'categoriesId': 8
+    },
+    {
+        'id': 15,
+        'name': 'Fresh-Squeezed Orange Juice.',
+        'avatar': 'https://static.wixstatic.com/media/c837a6_04e4857ebe0c4ea3b9fccda10ff08c81~mv2.jpg/v1/fill/w_234,h_312,al_c,q_80,usm_0.66_1.00_0.01/c837a6_04e4857ebe0c4ea3b9fccda10ff08c81~mv2.webp',
+        'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
+        'price': 4,
+        'categoriesId': 7
+    },
+    {
+        'id': 16,
+        'name': 'Beefsteak Tomatoes, Large -1lb',
+        'avatar': 'https://static.wixstatic.com/media/c837a6_b6904147666f40988c2b7c4bd616982c~mv2.jpg/v1/fill/w_234,h_312,al_c,q_80,usm_0.66_1.00_0.01/c837a6_b6904147666f40988c2b7c4bd616982c~mv2.webp',
+        'desc': "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item. Buyers like to know what they’re getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.",
+        'price': 4,
+        'categoriesId': 1
     },
 
 
@@ -180,7 +220,7 @@ if (boxProduct) {
                             <input type="text" value="1" class="numberProduct">
                             <div class="add">+</div>
                         </form>
-                        <div class="btn-add-cart">Add to Cart</div>
+                        <div class="btn-add-cart" id="${item.id}" onclick = "addCart(this)">Add to Cart</div>
                     </div>
                     </div>
             `;
@@ -245,10 +285,7 @@ if (widthSlide) {
     for (let index = 0; index < next.length; index++) {
         next[index].addEventListener('click', sliderNext);
         back[index].addEventListener('click', sliderBack);
-    };   
-    
-        // next.addEventListener('click', sliderNext);
-        // back.addEventListener('click', sliderBack);
+    };
 }
 
 
@@ -264,7 +301,6 @@ if (bg) {
             if (z <= 200) {
                 bg.style.transform = 'translateX(-' + z + 'px)';
                 z += 20;
-                console.log("hihi");
             }
         } else {
             if (z >= 0) {
@@ -301,13 +337,17 @@ if (mainCategories) {
 // validate form
 var signUp = document.querySelector('#submit-signUp');
 var signIn = document.querySelector('#submit-signIn');
+var contact =  document.querySelector('#contactSubmit');
 function checkFrom() {
     var countErro = 0;
     let name = document.querySelector('#name');
+    let lastname = document.querySelector('#lastname');
+    let phone = document.querySelector('#phone');
     let email = document.querySelector('#email');
     let pass = document.querySelector('#password');
     let rePass = document.querySelector('#re-password');
     let span = document.querySelectorAll('span');
+    let spanContact = document.querySelectorAll('.spanErro');
     if (signUp) {
         if (name.value.length == 0) {
             span[2].innerText = "Vui lòng nhập tên.";
@@ -352,7 +392,39 @@ function checkFrom() {
         if (countErro == 0) {
             swal("Sent", "Logged in successfully.", "success");
         }
+    }else if (contact) {
+        if (name.value.length == 0) {
+            spanContact[0].innerText = "Vui lòng nhập tên";
+            countErro++;
+        } else {
+            spanContact[0].innerText = "";
+        }
+        if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value))) {
+            spanContact[2].innerText = "Email không hợp lệ.";
+            countErro++;
+        } else {
+            spanContact[2].innerText = "";
+        }
+        if (lastname.value.length == 0) {
+            spanContact[1].innerText = "Vui lòng nhập họ.";
+            countErro++;
+        } else {
+            spanContact[1].innerText = "";
+        }
+        if (phone.value.length == 0) {
+            spanContact[3].innerText = "Vui lòng nhập số điện thoại.";
+            countErro++;
+        } else {
+            spanContact[3].innerText = "";
+        }
+
+        if (countErro == 0) {
+            swal("Sent", "Logged in successfully.", "success");
+        }
     }
+}
+if(contact){
+    contact.addEventListener('click', checkFrom);
 }
 if (signUp) {
     signUp.addEventListener('click', checkFrom);
@@ -423,7 +495,7 @@ if (sliderPrice) {
                                 <input type="text" value="1" class="numberProduct">
                                 <div class="add">+</div>
                             </form>
-                            <div class="btn-add-cart">Add to Cart</div>
+                            <div class="btn-add-cart" id="${productList[item].id}" onclick = "addCart(this)">Add to Cart</div>
                         </div>
                     </div>
                 `;
@@ -466,7 +538,7 @@ if (mainProductList) {
                         <input type="text" value="1" class="numberProduct">
                         <div class="add">+</div>
                     </form>
-                    <div class="btn-add-cart">Add to Cart</div>
+                    <div class="btn-add-cart" id="${item.id}" onclick = "addCart(this)">Add to Cart</div>
                 </div>
             </div>
         `;
@@ -533,7 +605,7 @@ if (sliderPrice) {
                             <input type="text" value="1" class="numberProduct">
                             <div class="add">+</div>
                         </form>
-                        <div class="btn-add-cart">Add to Cart</div>
+                        <div class="btn-add-cart" id="${i.id}" onclick = "addCart(this)">Add to Cart</div>
                     </div>
                 </div>
             `;
@@ -577,7 +649,103 @@ if (add || minus || sliderPrice) {
             priceProduct[i].innerText = "$" + Math.round((numberProduct[i].value) * arrPrice[i]);
         };
     }
+
 }
+
+var btnAdd = document.querySelectorAll('.btn-add-cart');
+if (btnAdd) {
+    var overlayCart = document.querySelector('.main-overlay');
+    var sidebarCart = document.querySelector('.sidebar-cart');
+    var sidebarMani = document.querySelector('.main-sidebar');
+    var cartNew = [];
+    var countSidebar = 0;
+    function addCart(a) {
+        // khá là ok la
+        var idCart = a.id
+        cartNew.push(idCart);
+        for(let item of productList){
+            if(item.id == a.id){
+                sidebarMani.innerHTML += `
+                <div class="box-product-sidebar">
+                    <div class="product-avatar-sidebar">
+                        <img src="${item.avatar}" alt="">
+                    </div>
+                    <div class="cart-info">
+                        <p class="name-product-sidebar">${item.name}</p>
+                        <p class="porduct-price-sidebar">$${item.price}</p>
+                    </div>
+                </div>
+                `;
+            }
+        }
+        animationCart();
+        addLocalStorage();
+    }
+    
+    function animationCart() {
+        if (countSidebar % 2 == 0) {
+            overlayCart.style.zIndex = '100';
+            sidebarCart.style.transform = 'translateX(0%)';
+        } else {
+            overlayCart.style.zIndex = '-1';
+            sidebarCart.style.transform = 'translateX(100%)';
+        }
+        countSidebar++;
+    }
+    if(overlayCart){
+        overlayCart.addEventListener('click',animationCart);
+    }
+    var countAdd = 0;
+    function addLocalStorage() {
+        localStorage.setItem('arrCartId', cartNew);
+    }
+    function removeLocalStorage() {
+        localStorage.clear(arrCart);
+    }
+
+    var mainCart = document.querySelector('.main-cart');
+    if(mainCart){
+        function displayMyCart() {
+            var getId = localStorage.getItem('arrCartId');
+            var arrID = getId.split(",");
+            for(let i of productList){
+                for(let j of arrID){
+                    if(i.id == j){
+                        mainCart.innerHTML += `
+                        <div class="product-add-cart">
+                            <div class="cart-left">
+                                <img src="${i.avatar}" alt="">
+                            </div>
+                            <div class="cart-right">
+                                <p class="name-product-cart">${i.name}</p>
+                                <p class="price-product-cart">$${i.price}</p>
+                                <form action="">
+                                    <div class="minus-product-cart">-</div>
+                                    <input type="text" value="1" class="numberProduct">
+                                    <div class="add-product-cart">+</div>
+                                </form>
+                            </div>
+                            <i onclick = "removeProductCart(this)" class="bx bx-x"></i>
+                        </div>
+                    `;
+                    }
+                }
+            }
+        }
+        displayMyCart();
+        function removeProductCart(ev){
+        }
+    }
+}
+
+// hiệu ứng animation từ thư viện js "scrollrevealjs.org"
+ScrollReveal().reveal('.main-slider-best', { duration: 2000});
+ScrollReveal().reveal('.box-categories', { interval: 300 });
+ScrollReveal().reveal('.item-location', { interval: 300 });
+
+
+
+
 
 
 
